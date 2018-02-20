@@ -16,7 +16,7 @@ export default {
   name: 'Navbar',
   data () {
     return {
-        isOpen:true
+        isOpen:false
     }
   },
   components:{Nav},
