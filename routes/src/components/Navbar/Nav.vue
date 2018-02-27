@@ -1,12 +1,12 @@
-<template>   
+<template>
     <ul class="navbar-nav ml-auto">
         <router-link :to="{name: 'dashboard.main'}" tag="li" class="nav-item" exact>
             <a class="nav-link">Home</a>
         </router-link>
         <router-link to="/auth" tag="li" class="nav-item">
-            <a class="nav-link">Auth</a>
+            <a class="nav-link">Entrar</a>
         </router-link>
-    </ul>  
+    </ul>
 </template>
 
 <script>
@@ -14,7 +14,7 @@ export default {
   name: 'Nav',
   data () {
     return {
-      
+
     }
   }
 }
